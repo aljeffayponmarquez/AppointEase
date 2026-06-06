@@ -1,1 +1,25 @@
-{"packages":{"php":"8.2"},"buildAptPackages":["bison","re2c"]}
+{
+  "$schema": "https://schema.railpack.com",
+  "packages": {
+    "php": "8.2"
+  },
+  "buildAptPackages": [
+    "bison",
+    "re2c",
+    "libcurl4-openssl-dev",
+    "libreadline-dev",
+    "libpq-dev",
+    "libonig-dev",
+    "libzip-dev",
+    "libgd-dev",
+    "libfreetype-dev",
+    "libjpeg-dev",
+    "libpng-dev",
+    "libwebp-dev",
+    "libicu-dev",
+    "libxml2-dev",
+    "libxslt1-dev",
+    "gettext",
+    "libsqlite3-dev"
+  ]
+}
